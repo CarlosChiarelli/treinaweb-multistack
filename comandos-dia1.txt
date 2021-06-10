@@ -1,0 +1,79 @@
+# criando app Next.js
+npx create-next-app ediaristas
+
+# abrir rpojeto IDE
+cd ediaristas
+code .
+
+# iniciar app
+npm run dev
+
+# criar na raiz arquivo config typescript
+tsconfig.json
+
+# instalar ts
+npm i typescript @types/react
+
+# iniciar app
+npm run dev
+
+# separar arquivos da parte visual e parte logica de dados
+...
+
+Abaixo passo-a-passo completo.
+
+🔗 [Repositório - GitHub](https://github.com/treinaweb/treinaweb-workshop-multistack-react)
+
+## Checklist do Ambiente
+
+- [ ]  Instalar Node.js
+- [ ]  Instalar VS Code
+- [ ]  Instalar extensão Styled Components
+
+## Checklist da Criação do Projeto
+
+- [ ]  Iniciar o projeto
+
+    `npx create-next-app ediaristas` 
+
+- [ ]  Criar arquivo de configuração do TypeScript `tsconfig.json`
+- [ ]  Instalar TypeScript e tipagem do React
+
+    `npm i typescript @types/react`
+
+- [ ]  Iniciar o servidor
+
+Em caso de erro no Windows, executar:
+
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
+
+## Checklist da Organização do Projeto
+
+- [ ]  Criar pasta `src` na raiz do projeto
+- [ ]  Jogar pasta `pages` em `src`
+- [ ]  Criar pasta `ui` e `data` em `src`
+- [ ]  Arrastar pasta `styles` para `ui`
+- [ ]  Criar pasta `components` em `ui`
+- [ ]  Criar pasta `themes` em `ui`
+- [ ]  Criar pasta `@types` em `data`
+- [ ]  Criar pasta `services` em `data`
+- [ ]  Criar pasta `hooks` em `data`
+- [ ]  Mudar arquivos `.js` para `.tsx`
+- [ ]  Apagar pasta `api`
+- [ ]  Simplificar caminhos no `tsconfig.json`
+- [ ]  Arrumar caminhos da importação em `index.tsx`
+- [ ]  Apagar arquivo `Home.module.css`
+- [ ]  Arrumar caminhos da importação em `_app.tsx`
+- [ ]  Jogar imagens na pasta `public`
+
+## Checklist das Configurações do Projeto
+
+- [ ]  Instalar dependências
+
+    `npm i @material-ui/core@next @emotion/react @emotion/styled axios react-input-mask`
+
+- [ ]  Configurar tema
+    - [ ]  Criar arquivo do Tema
+    - [ ]  Adicionar Provider
+    - [ ]  Adicionar Fonte
+    - [ ]  Definir fonte no CSS
